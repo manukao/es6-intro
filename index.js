@@ -1,10 +1,10 @@
-let word1 = "manu";
-let word2 = "kao";
-let num1 = 3;
-let num2 = 7;
+//let word1 = "manu";
+//let word2 = "kao";
+//let num1 = 3;
+//let num2 = 7;
 
-const someText = `${word1} ${num1 * num2} ${word2}`;
-console.log(someText);
+//const someText = `${word1} ${num1 * num2} ${word2}`;
+//console.log(someText);
 
 //let example = `
 // ${word1}
@@ -13,25 +13,25 @@ console.log(someText);
 //console.log(example);
 //document.getElementById("example").innerText = example;
 
-const player = {
-  name: "Lebron James",
-  club: "LA Lakers",
-  address: {
-    city: "Los Angeles",
-  },
-};
+//const player = {
+//  name: "Lebron James",
+//  club: "LA Lakers",
+//  address: {
+//    city: "Los Angeles",
+//  },
+//};
 
 // console.log( player.address.city );
 
-const {
-  name,
-  club,
-  address: { city },
-} = player;
+//const {
+//  name,
+//  club,
+//  address: { city },
+//} = player;
 
 // console.log(`${name} plays for ${club}`);
 
-console.log(`${name} lives in ${city}`);
+// console.log(`${name} lives in ${city}`);
 
 /*
     **** Challenge ****
@@ -39,21 +39,20 @@ console.log(`${name} lives in ${city}`);
     For this challenge destruture the following object.
 */
 
-const student = {
-  name: "Kyle",
-  age: 24,
-  projects: {
-    diceGame: "Two player dice game using JavaScript",
-  },
-};
-
-const {
-  name,
-  age,
-  projects: { diceGame },
-} = student;
-
-console.log(name);
-console.log(age);
-
-console.log(diceGame);
+// const student = {
+//   name: "Kyle",
+//   age: 24,
+//   projects: {
+//     diceGame: "Two player dice game using JavaScript",
+//   },
+// };
+//
+// const {
+//   name,
+//   age,
+//   projects: { diceGame },
+// } = student;
+//
+// console.log(name);
+// console.log(age);
+// console.log(diceGame);
