@@ -6,6 +6,29 @@ let num2 = 7;
 const someText = `${word1} ${num1 * num2} ${word2}`;
 console.log(someText);
 
-//let example = `${word1} ${word2}`;
+//let example = `
+// ${word1}
+// ${word2}
+// `;
 //console.log(example);
 //document.getElementById("example").innerText = example;
+
+const player = {
+  name: "Lebron James",
+  club: "LA Lakers",
+  address: {
+    city: "Los Angeles",
+  },
+};
+
+// console.log( player.address.city );
+
+const {
+  name,
+  club,
+  address: { city },
+} = player;
+
+// console.log(`${name} plays for ${club}`);
+
+console.log(`${name} lives in ${city}`);
