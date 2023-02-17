@@ -57,8 +57,16 @@
 // console.log(age);
 // console.log(diceGame);
 
-let [firstName, middleName, lastName] = ["Dylan", "Coding God", "Israel"];
+// Destructure an array:
+//let [firstName, middleName, lastName] = ["Dylan", "Coding God", "Israel"];
+//lastName = "Clements";
+//console.log(lastName);
 
-lastName = "Clements";
-
-console.log(lastName);
+//Object literals
+// function addressMaker(city, state) {
+//   const newAdress = { city, state };
+//
+//   console.log(newAdress);
+// }
+//
+// addressMaker("Austin", "Texas");
