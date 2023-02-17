@@ -56,3 +56,9 @@
 // console.log(name);
 // console.log(age);
 // console.log(diceGame);
+
+let [firstName, middleName, lastName] = ["Dylan", "Coding God", "Israel"];
+
+lastName = "Clements";
+
+console.log(lastName);
